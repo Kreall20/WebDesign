@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #3F3B3D;
+}
+.header-in{
+    padding: 20px 50px 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: inline-block;
+    margin-left: 797px;
+}
+.menu-item{
+    display: inline-block;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 32px;
+    letter-spacing: 1.67px;
+}
+.menu-item a{
+    color: rgba(0, 0, 0, 0.3);
+}
+.menu-item:last-child{
+    margin-right: 62px;
+}
+.header-btn{
+    width: 64px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: white;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    padding: 5px 18px 6px;
+    letter-spacing: 1.67px;
+}
+/* main */
+.first-block img{
+    margin-top: 22px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: calc(50% - 756px/2);
+    top: 224px;
+    left: calc(50% - 756px/2);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: 0.81px;
+    color: #FFFFFF;
+}
+.first-block p{
+    position: absolute;
+    width: 496px;
+    height: 50px;
+    left: calc(50% - 496px/2);
+    top: 324px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-bottom: 60px;
+}
+.first-block button{
+    width: 215px;
+    height: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+}
+.first-block #first-button{
+    top: 490px;
+    left: 530px;
+}
+.first-block #second-button{
+    top: 490px;
+    left: 760px;
+}
+/* second-block */
+.second-block{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+}
+.second-block .sbfirst-img{
+    width: 710px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 40px;
+    position: relative;
+}
+.second-block .sbsecond-img{
+    width: 710px;
+    height: 500px;
+    position: relative;
+}
+.second-block h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sbfirst-img h2{
+    margin: 310px 256px 0;
+}
+.sbsecond-img h2{
+    margin: 310px 311px 0;
+}
+.second-block p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.second-block .firstp{
+    position: absolute;
+    left: 249px;
+    top: 356px;
+}
+.second-block .secondp{
+    position: absolute;
+    left: 266px;
+    top: 390px;
+}
+.second-block button{
+    width: 92px;
+    height: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent;
+}
+.second-block .firstbtn{
+    margin: 450px 220px 0;
+}
+.second-block .secondbtn{
+    margin: 450px 437px 0;
+}
+/* third-block */
+.third-block img{
+    margin-top: 16px;
+    width: 100%;
+    height: 430px;
+    /* position: relative; */
+}
+/* .third-block h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    color: #1B1B1B;
+} */

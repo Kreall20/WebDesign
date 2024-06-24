@@ -1,0 +1,134 @@
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/* header */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.menu-item a{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.menu-item a:hover{
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.line{
+    width: 100%;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* fb */
+ul.block1{
+    margin-top: 39.69px;
+    margin-bottom: 30.64px;
+    display: flex;
+    justify-content: space-between;
+}
+.fb-item:first-child{
+    width: 123.51px;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+.fb-item:nth-child(2){
+    width: 155.65px;
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    align-self: center;
+}
+.fb-item:last-child{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 16px;
+    line-height: 20px;   
+    color: #828282;
+    transform: rotate(-90deg);
+    align-self: center;
+}
+main img#fb{
+    width: 100%;
+}
+/* block2 */
+
+.block2{
+    margin-top: 104.06px;
+    background: #F6F6F6;
+}
+h2.about{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    line-height: 42px;   
+    color: #070707;
+    text-align: center;
+    padding-top: 120.25px;
+}
+.block2-in{
+    padding: 17.69px 480px 107px;
+}
+.block2-in p{
+    text-align: center;
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+/* block3 */
+.block3 h2{
+    padding-top: 91px;
+    text-align: center;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707; 
+}
+.block3 p{
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 69.1px;
+    text-align: center;
+}
+.prougrams{
+    margin-top: 83.49px;
+    display: flex;
+    justify-content: space-around;
+}
+.prog-item h4{
+    width: 90%;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-align: center;
+    justify-self: center;
+}
